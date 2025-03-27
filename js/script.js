@@ -1,7 +1,7 @@
 const handOptions = {
-  rock: "./assets/rock.png",
-  paper: "./assets/paper.png",
-  scissors: "./assets/scissors.png",
+  "rock": "./assets/rock.png",
+  "paper": "./assets/paper.png",
+  "scissors": "./assets/scissors.png",
 };
 
 let SCORE = 0;
@@ -68,11 +68,11 @@ const referee = (userHand, cpHand) => {
 }
 
 const restartGame = () => {
-   let hands = document.querySelector(".hands");
-   hands.style.display = "flex";
- 
-   let contest = document.querySelector(".contest");
-   contest.style.display = "none";
+  let hands = document.querySelector(".hands");
+  hands.style.display = "flex";
+
+  let contest = document.querySelector(".contest");
+  contest.style.display = "none";
 }
 
 const setDecision = (decision) => {

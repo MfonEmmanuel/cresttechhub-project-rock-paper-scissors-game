@@ -42,3 +42,33 @@ A simple implementation of the classic Rock Paper Scissors game where players ca
 - HTML
 - CSS
 - JavaScript
+
+## Deployment
+- Deployed on Vercel
+- Live demo: [Add your Vercel URL here]
+
+## GitHub Instructions
+1. Initialize repository:
+```bash
+git init
+```
+
+2. Add files:
+```bash
+git add .
+```
+
+3. Commit changes:
+```bash
+git commit -m "Initial commit"
+```
+
+4. Connect to GitHub:
+```bash
+git remote add origin [your-github-repo-url]
+```
+
+5. Push changes:
+```bash
+git push -u origin main
+```
