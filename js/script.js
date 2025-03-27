@@ -1,7 +1,7 @@
 const handOptions = {
-  rock: "./assets/rock.png",
-  paper: "./assets/paper.png",
-  scissors: "./assets/scissors.png",
+  "rock": "./assets/rock.png",
+  "paper": "./assets/paper.png",
+  "scissors": "./assets/scissors.png",
 };
 
 let SCORE = 0;
